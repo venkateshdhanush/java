@@ -1,0 +1,12 @@
+package base;
+import java.util.Scanner;
+public class Base
+{
+    public static void main(String[] args) {
+        float pi=3.14f,r,area;
+        Scanner d= new Scanner (System.in);
+        r=d.nextFloat();
+        area=pi*r*r;
+        System.out.println(area);
+    }
+}
